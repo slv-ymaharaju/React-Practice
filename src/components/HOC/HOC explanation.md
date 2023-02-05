@@ -1,0 +1,4 @@
+## withSelected(Header)
+ It is a higher-order component (HOC) that wraps the Header component. It provides additional functionality to the Header component by adding state management for the selected menu item. When the user clicks on any of the menu items in the Header, the selected item will be updated in the state of the HOC and the corresponding style will be applied to that item.
+ 
+The HOC takes the Header component as an argument and returns a new component that has the state management and additional functionality. This allows us to reuse the same logic for different components without having to write the same code multiple times. By wrapping the Header component in this way, we can enhance its functionality and make it easier to manage and maintain.
