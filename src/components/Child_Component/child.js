@@ -1,14 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import DataContext from '../Parent_Component/dataContext';
 
-// Child component
+
 const ChildComponent = props => {
+  const data = useContext(DataContext);
+
   return (
     <div>
-      <p>Data from parent: {props.dataFromParent}</p>
+      <p>Data from parent (props): {props.dataFromParent}</p>
+      <p>Data from parent (useContext): {data}</p>
     </div>
   );
 };
-
 
 export default ChildComponent;
 
