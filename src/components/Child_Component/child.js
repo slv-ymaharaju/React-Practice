@@ -3,7 +3,7 @@ import DataContext from '../Parent_Component/dataContext';
 
 
 const ChildComponent = props => {
-  const data = useContext(DataContext);
+  const data = useContext(DataContext)
 
   return (
     <div>
@@ -15,4 +15,5 @@ const ChildComponent = props => {
 
 export default ChildComponent;
 
-//What ever data we are getting from parent by calling args that is reflection in line number 7.
+// What ever data we are getting from parent by calling ChildComponent with args that is reflection in line number 11.
+// We are using useContext here because we created context in dataContext component and stored data there to use that data we need to use useContext hook

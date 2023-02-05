@@ -2,6 +2,7 @@ import React from 'react';
 import DataContext from './dataContext';
 import ChildComponent from '../Child_Component/child';
 
+
 const ParentComponent = () => {
   const data = 'Hello World';
 
