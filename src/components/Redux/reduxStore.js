@@ -31,4 +31,3 @@ export default store;
 
 // Finally, the store is exported as the default export so it can be used in other parts of the application.
 
-

@@ -1,8 +1,10 @@
 import React from 'react';
+import '../style.css'
 
 const Header = props => {
   return (
     <header>
+        <h1>Redux</h1>
       <nav>
         <ul>
           <li>
